@@ -6,6 +6,8 @@ header {
     justify-content: center;
 }
 
+
+
 .header-title {
     color: rgb(65, 61, 63);
     background-color: rgb(90, 72, 61);
@@ -53,6 +55,12 @@ margin-right: 50px;
     position: relative;
     text-align: center;
     
+}
+
+.total-container {
+    background-color: lightblue;
+    height: 100%;
+ 
 }
 
 .about-me h1 {
@@ -106,53 +114,73 @@ margin-right: 50px;
     grid-column: 1/ span 4;
     grid-row: 1/ span 2;
     max-width: 100%;
-    background-image: url("../images/Sky.jpg");
- 
+    height: 100%;
+    width: 100%;
+    /* background-image: url("../images/Sky.jpg");  */
+}
+
+.grid-item img {
+    filter: sepia(100%);
+    transition: 0.3s ease-in-out;
+
+}
+
+.grid-item:hover img {
+    background-color: rgba(15, 94, 121, 0.5);
+    filter: sepia(0);
 }
 
 .cool-heading2-container {
     background-color: lightblue;
-    width: 200px;
+    position: relative;
+    top: -75px;
+    width: 90px;
 }
 
 .cool-heading2 {
-    position: relative;
-    bottom: 4px;
-    right: 16px;
-    margin-right: 50px;
-    left: 50px;
-    color: black;
+    color: rgb(126, 29, 29);
+
+    
 
     }
 
 .box2 {
+    height: 100%;
+    width: 100%;
     grid-column: 5/ span 2;
     grid-row: 1/ span 1;
-    background-image: url("../images/Sky.jpg");
+    /* background-image: url("../images/Sky.jpg"); */
 }
 
 .box3 {
+    height: 100%;
+    width: 100%;
     grid-column: 5/ span 2;
     grid-row: 2/ span 1;
-    background-image: url("../images/Sky.jpg");
+    /* background-image: url("../images/Sky.jpg"); */
 }
 
 .box4 {
+    height: 100%;
+    width: 100%;
     grid-column: 1/ span 2;
     grid-row: 3/ span 1;
-    background-image: url("../images/Sky.jpg");
+    /* background-image: url("../images/Sky.jpg"); */
 }
 
 .box5 {
+    height: 100%;
+    width: 100%;
     grid-column: 3/ span 2;
     grid-row: 3/ span 1;
-    background-image: url("../images/Sky.jpg");
+    /* background-image: url("../images/Sky.jpg"); */
 }
+
 
 .contact-me h1 {
     float: left;
     text-align: right;
-    height: 100px;
+    height: 70px;
     width: 100px;
     border-right: solid;
     padding-right: 5px;
@@ -163,7 +191,7 @@ margin-right: 50px;
 .contact-me h3 {
     padding-left: 50px;
     padding-top: 20px;
-    height: 100px;  
+    height: 70px;  
     align-items: center;
     display: flex;
     justify-content: center;
@@ -182,6 +210,7 @@ footer h2 {
     text-align: center;
     flex-wrap: wrap;
     border-bottom: solid;
+    padding-top: 40px;
 }
 
 
@@ -347,7 +376,7 @@ footer h2 {
         margin-right: 5px;
         left: 10px;
         color: black;
-        font-size: x-small; 
+        font-size: 16px; 
         height: 20px;   
              
         }
@@ -387,10 +416,11 @@ footer h2 {
 
     .contact-me h1 {
         border: none;
+
     }
 
     footer h2 {
-        font-size: x-small;
+        font-size: 16px;
         width: 100px;
         padding: 0;
     
