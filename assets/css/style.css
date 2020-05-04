@@ -132,14 +132,15 @@ margin-right: 50px;
 }
 
 .cool-heading2-container {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     position: relative;
     top: -75px;
     width: 90px;
 }
 
 .cool-heading2 {
-    color: rgb(126, 29, 29);
+    color: rgb(240, 17, 17);
+    width: 200px;
 
     
 
